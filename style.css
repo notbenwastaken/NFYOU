@@ -1,0 +1,20 @@
+body {
+	 display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: rgb(81, 45, 167);
+  margin: 0rem;
+  overflow: hidden;
+}
+
+h1 {
+  color: white;
+  font-size: 7rem;
+  font-family: "Visbly Round CF", monospace;
+}
+
+h1:hover {
+  background-color: white;
+    border-radius: clamp(0.4rem, 0.75vw, 1rem);
+  color: black;
+}
